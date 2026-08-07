@@ -1,6 +1,6 @@
 {
     "lastChangelogVersion": "0.83.0",
-    "theme": "light",
+    "theme": "zenburn",
     "defaultProvider": "openai-codex",
     "defaultModel": "gpt-5.6-sol",
     "defaultThinkingLevel": "high",
@@ -39,7 +39,6 @@
         }
     },
     "packages": [
-        "https://github.com/ayghri/i-have-adhd",
         "npm:pi-powerline-footer",
         "npm:pi-subagents",
         "npm:pi-intercom",
