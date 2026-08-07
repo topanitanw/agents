@@ -1,0 +1,52 @@
+{
+    "lastChangelogVersion": "0.83.0",
+    "theme": "light",
+    "defaultProvider": "openai-codex",
+    "defaultModel": "gpt-5.6-sol",
+    "defaultThinkingLevel": "high",
+    "powerline": {
+        "preset": "default",
+        "separator": "pipe",
+        "model": {
+            "display": "name"
+        },
+        "path": {
+            "mode": "basename"
+        },
+        "context": {
+            "format": "full"
+        },
+        "cache_read": {
+            "format": "tokens"
+        },
+        "cost": {
+            "subscriptionDisplay": "subscription",
+            "currency": "USD"
+        },
+        "placement": "below",
+        "layout": {
+            "left": [
+                "model",
+                "thinking",
+                "path"
+            ],
+            "right": [],
+            "secondary": [
+                "context_pct",
+                "cache_read",
+                "cost"
+            ]
+        }
+    },
+    "packages": [
+        "https://github.com/ayghri/i-have-adhd",
+        "npm:pi-powerline-footer",
+        "npm:pi-subagents",
+        "npm:pi-intercom",
+        "npm:pi-ponytail",
+        "npm:pi-context-usage",
+        "npm:pi-context-prune",
+        "npm:pi-tscg",
+        "npm:pi-context"
+    ]
+}
