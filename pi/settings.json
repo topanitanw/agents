@@ -1,51 +1,53 @@
 {
-    "lastChangelogVersion": "0.83.0",
-    "theme": "zenburn",
-    "defaultProvider": "openai-codex",
-    "defaultModel": "gpt-5.6-sol",
-    "defaultThinkingLevel": "high",
-    "powerline": {
-        "preset": "default",
-        "separator": "pipe",
-        "model": {
-            "display": "name"
-        },
-        "path": {
-            "mode": "basename"
-        },
-        "context": {
-            "format": "full"
-        },
-        "cache_read": {
-            "format": "tokens"
-        },
-        "cost": {
-            "subscriptionDisplay": "subscription",
-            "currency": "USD"
-        },
-        "placement": "below",
-        "layout": {
-            "left": [
-                "model",
-                "thinking",
-                "path"
-            ],
-            "right": [],
-            "secondary": [
-                "context_pct",
-                "cache_read",
-                "cost"
-            ]
-        }
+  "lastChangelogVersion": "0.83.0",
+  "theme": "zenburn",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.6-sol",
+  "defaultThinkingLevel": "high",
+  "powerline": {
+    "preset": "default",
+    "separator": "pipe",
+    "model": {
+      "display": "name"
     },
-    "packages": [
-        "npm:pi-powerline-footer",
-        "npm:pi-subagents",
-        "npm:pi-intercom",
-        "npm:pi-ponytail",
-        "npm:pi-context-usage",
-        "npm:pi-context-prune",
-        "npm:pi-tscg",
-        "npm:pi-context"
-    ]
+    "path": {
+      "mode": "basename"
+    },
+    "context": {
+      "format": "full"
+    },
+    "cache_read": {
+      "format": "tokens"
+    },
+    "cost": {
+      "subscriptionDisplay": "subscription",
+      "currency": "USD"
+    },
+    "placement": "below",
+    "layout": {
+      "left": [
+        "model",
+        "thinking",
+        "path"
+      ],
+      "right": [],
+      "secondary": [
+        "context_pct",
+        "cache_read",
+        "cost"
+      ]
+    }
+  },
+  "packages": [
+    "npm:pi-powerline-footer",
+    "npm:pi-subagents",
+    "npm:pi-intercom",
+    "npm:pi-ponytail",
+    "npm:pi-context-usage",
+    "npm:pi-context-prune",
+    "npm:pi-tscg",
+    "npm:pi-context",
+    "npm:pi-memory",
+    "npm:pi-vimmode"
+  ]
 }
